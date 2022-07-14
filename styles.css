@@ -1,0 +1,90 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 0px 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#navigatie {
+    background-color: #DFA06E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10%;
+}
+a {
+  text-decoration: none;
+  color: #492C1D;
+}
+ul {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #B4CDED;
+    border-style: dotted;
+    border-color: white;
+    font-family: serif;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 5px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 0%;
+    text-align: center;
+}
+button{
+    background-color: #F1BB87;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 10%;
+}
+button:hover{
+font-size: 22px;
+}
+
+button:active{
+    background-color: lightblue;
+}
+p{
+text-align: center;
+  width: 60%;
+  margin:auto;
+
+}
+h3{
+  margin: 50px 20px 20px 20px;
+font-size: 20px;
+}
+img{
+  width: 50rem;
+  background-attachment: fixed;
+  border-radius: 5%;
+}
+table{
+  border-spacing: 1rem;
+  border-style: inset;
+  border-style: dotted;
+  font-family: verdana;
+  font-size: 75%;
+  text-align: center;
+  border-radius: 5%;
+  margin: auto;
+  border-color: #B4CDED;
+}
+.content {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
